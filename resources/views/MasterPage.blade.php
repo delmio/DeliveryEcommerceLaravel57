@@ -12,15 +12,16 @@
   <link rel="stylesheet" href="{{asset('dist/css/AdminLTE.min.css')}}">
   <link rel="stylesheet" href="{{asset('dist/css/skins/_all-skins.min.css')}}">
   <script src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"> -->
+  <link rel="stylesheet" href="{{asset('dist/css/Fuentes.css')}}">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
   <header class="main-header">
     <a href="{{url('/Admin')}}" class="logo">
-      <span class="logo-mini"><img src="{{asset('dist/img/Logo_Obonvivant.png')}}" class="img-circle" alt="Logo" with="40px" height="40px"></span>
-      <span class="logo-lg"><img src="{{asset('dist/img/Logo_Obonvivant.png')}}" class="img-circle" alt="Logo" with="40px" height="40px"><b> O</b>Bonvivant</span>
+      <span id="Logo" class="logo-mini"><img src="{{asset('dist/img/LogoBonVivantAdmin.png')}}" class="img-circle" alt="Logo" with="40px" height="40px"></span>
+      <span id="Logo" class="logo-lg"><img src="{{asset('dist/img/LogoBonVivantAdmin.png')}}" class="img-circle" alt="Logo" with="40px" height="40px"><b> B</b>on Vivant</span>
     </a>
 
     <nav class="navbar navbar-static-top">
