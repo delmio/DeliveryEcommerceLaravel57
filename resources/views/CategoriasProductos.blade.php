@@ -13,7 +13,7 @@
 @stop 
 
 @Section('MenusHabilitados')
-    @include('Menus.Admin')
+    @include('Menus')
 @stop 
 
 @Section('CuerpoHeader')
