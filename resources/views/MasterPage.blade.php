@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="{{asset('dist/css/AdminLTE.min.css')}}">
   <link rel="stylesheet" href="{{asset('dist/css/skins/_all-skins.min.css')}}">
   <script src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
-<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"> -->
   <link rel="stylesheet" href="{{asset('dist/css/Fuentes.css')}}">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
@@ -30,6 +29,9 @@
       </a>
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
+        <li class="relojito" id="relojito">
+              <p id="DS" class="DS"></p><p id="NDS" class="NDS"></p><p>de</p><p id="MES" class="MES"></p><p>del</p><p id="ANIO" class="ANIO"><p id="HORAS" class="HORAS"></p><p>:</p><p id="MINUTOS" class="MINUTOS"><p>:</p></p><p id="SEGUNDOS" class="SEGUNDOS"></p>
+          </li>
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="{{asset('dist/img/defaultUser.png')}}" class="user-image" alt="User Image">
@@ -116,5 +118,6 @@
 <script src="{{asset('bower_components/chart.js/Chart.js')}}"></script>
 <script src="{{asset('dist/js/pages/dashboard2.js')}}"></script>
 <script src="{{asset('dist/js/demo.js')}}"></script>
+<script src="{{asset('dist/js/Reloj.js')}}"></script>
 </body>
 </html>

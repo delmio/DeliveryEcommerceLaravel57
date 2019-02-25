@@ -6,3 +6,18 @@
 #Logo { font-family: GreatVibes; }
 
 body { font-family: Roboto-Regular;}
+
+#relojito p{
+    display: inline-block;
+    padding-top: 15px;
+    color: #ffffff;
+
+}
+.relojito #DS, #NDS, #MES, #ANIO{
+    padding-right: 3px;
+    padding-left: 3px; 
+}
+
+.relojito #SEGUNDOS{
+    padding-right: 10px;
+}

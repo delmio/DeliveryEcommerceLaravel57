@@ -23,6 +23,7 @@ Route::group(['middleware'=>'CheckLogin'],function(){
     Route::post('/AgregarNuevaCategoria','CategoriasProductosController@Add');
     Route::get('/Editar/{id}',['uses'=>'CategoriasProductosController@GetEditedProduct','as'=>'EditarCategoriaStep1']);
     Route::post('Edit','CategoriasProductosController@Editar');
-    Route::get('/Productos',function(){return view('Productos');});
+    Route::post('/AgregarProductoStep1','ProductosController@AgregarProcutoStep1');
+    Route::get('/Productos','ProductosController@List');
 });
 
