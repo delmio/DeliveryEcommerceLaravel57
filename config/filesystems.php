@@ -48,6 +48,12 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'DiscoUrlImagenes' => [
+            'driver' => 'local',
+            'root' => public_path('Imagenes/Productos'),
+            'visibility' => 'public',
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),

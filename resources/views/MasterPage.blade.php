@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="{{asset('dist/css/skins/_all-skins.min.css')}}">
   <script src="{{asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
   <link rel="stylesheet" href="{{asset('dist/css/Fuentes.css')}}">
+  @yield('CustomeScripts')
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">

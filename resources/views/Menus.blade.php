@@ -1,3 +1,5 @@
+@include('Menus.Clientes')
 @include('Menus.Usuarios')
 @include('Menus.Productos')
 @include('Menus.Bodega')
+@include('Menus.Ordenes')

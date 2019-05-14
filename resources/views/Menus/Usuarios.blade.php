@@ -1,6 +1,6 @@
 <li class="treeview menu-close">
           <a href="#">
-            <i class="fa fa-users"></i> <span>Usuarios</span>
+            <i class="glyphicon glyphicon-user"></i> <span>Usuarios</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>

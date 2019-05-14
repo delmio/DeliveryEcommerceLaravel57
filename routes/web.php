@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/',function(){return view('welcome');});
+Route::get('/',function(){return view('MasterPageHome');});
 
 Route::post('/ValidarUsuario','UsuariosController@ValidarUsuario');
 Route::get('/LogOutUser','UsuariosController@LogOut');
@@ -23,7 +23,9 @@ Route::group(['middleware'=>'CheckLogin'],function(){
     Route::post('/AgregarNuevaCategoria','CategoriasProductosController@Add');
     Route::get('/Editar/{id}',['uses'=>'CategoriasProductosController@GetEditedProduct','as'=>'EditarCategoriaStep1']);
     Route::post('Edit','CategoriasProductosController@Editar');
-    Route::post('/AgregarProductoStep1','ProductosController@AgregarProcutoStep1');
+    Route::post('/AgregarProducto','ProductosController@AgregarProducto');
     Route::get('/Productos','ProductosController@List');
+    Route::get('/BodegaIngreso','ProductosController@ListStock');    
+    Route::post('/AgregarStockProducto','ProductosController@AgregarStock');
 });
 

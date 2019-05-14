@@ -1,7 +1,7 @@
 @font-face { font-family: GreatVibes; src: url('../GreatVibes-Regular.otf'); } 
 @font-face { font-family: Roboto-Bold; src: url('../Roboto-Bold.ttf'); } 
 @font-face { font-family: Roboto-Thin; src: url('../Roboto-Thin.ttf'); } 
-@font-face { font-family: Roboto-Thin; src: url('../Roboto-Regular.ttf'); } 
+@font-face { font-family: Roboto-Regular; src: url('../Roboto-Regular.ttf'); } 
 
 #Logo { font-family: GreatVibes; }
 
@@ -20,4 +20,111 @@ body { font-family: Roboto-Regular;}
 
 .relojito #SEGUNDOS{
     padding-right: 10px;
+}
+
+.content-wrapper{
+    background-image: url("../img/bg.png");
+}
+.inner_main_menu_master{
+    margin: 0 auto;
+    width: 1170px;
+}
+.inner_main_menu_master ul{
+    margin: 0;
+    padding: 100px 0px 0px;
+    list-style: none;
+    text-align: right;
+}
+.inner_main_menu_master ul li{
+    float: none;
+    display: inline-block;
+}
+.inner_main_menu_master ul li:nth-child(1){
+    float: left;
+}
+.inner_main_menu_master ul li:nth-child(2){
+    float: left;
+}
+.inner_main_menu_master ul li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color:#86b9ab;
+    background-color:transparent;
+}
+.inner_main_menu_master ul li a:hover{
+    color:#669c8d;
+}
+#master_home{ 
+    background-image: url("../img/bg.png");
+}
+#main_menu{
+    width: 100%;
+    position: relative;
+}
+.logo_area_master{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: "";
+    margin-left: -125px;
+    text-align: center; 
+}
+.logo_area_master a{
+    background-color:transparent;
+}
+#LogoFront {
+    color: #fff;
+    border-bottom: 0 solid transparent;
+    background-color: #86b9ab;
+    transition: width .3s ease-in-out;
+    display: block;
+    float: left;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 230px;
+    padding: 0 15px;
+    font-weight: 300;
+    overflow: hidden;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+}
+#LogOutBTN{
+    color: #fff;
+    background-color: #86b9ab;
+    border-radius: 0;
+    box-shadow: none;
+    border-width: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px;
+    border-color: #86b9ab;
+    border: 1px solid transparent;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#firstwrapper{
+    background-color: #86b9ab;
 }
